@@ -1,7 +1,138 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="eb978a30-c8e8-4b20-b826-b89cf59c600c" name="Default" comment="" />
+    <list default="true" id="eb978a30-c8e8-4b20-b826-b89cf59c600c" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WDR-42/Head-First-JavaScript-Programming-master/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WDR-42/Head-First-JavaScript-Programming-master/appendix/JSON.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WDR-42/Head-First-JavaScript-Programming-master/appendix/arguments.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WDR-42/Head-First-JavaScript-Programming-master/appendix/dom.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WDR-42/Head-First-JavaScript-Programming-master/appendix/events.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WDR-42/Head-First-JavaScript-Programming-master/appendix/exceptions.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WDR-42/Head-First-JavaScript-Programming-master/appendix/fibonacci.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WDR-42/Head-First-JavaScript-Programming-master/appendix/jquery.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WDR-42/Head-First-JavaScript-Programming-master/appendix/listener.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WDR-42/Head-First-JavaScript-Programming-master/appendix/regexp.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WDR-42/Head-First-JavaScript-Programming-master/chapter1/behavior.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WDR-42/Head-First-JavaScript-Programming-master/chapter1/birthday.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WDR-42/Head-First-JavaScript-Programming-master/chapter1/code.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WDR-42/Head-First-JavaScript-Programming-master/chapter1/generic.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WDR-42/Head-First-JavaScript-Programming-master/chapter1/howdy.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WDR-42/Head-First-JavaScript-Programming-master/chapter1/icecream.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WDR-42/Head-First-JavaScript-Programming-master/chapter1/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WDR-42/Head-First-JavaScript-Programming-master/chapter1/kids.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WDR-42/Head-First-JavaScript-Programming-master/chapter10/addN.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WDR-42/Head-First-JavaScript-Programming-master/chapter10/aloha.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WDR-42/Head-First-JavaScript-Programming-master/chapter10/cola.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WDR-42/Head-First-JavaScript-Programming-master/chapter10/fun.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WDR-42/Head-First-JavaScript-Programming-master/chapter10/plane.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WDR-42/Head-First-JavaScript-Programming-master/chapter10/shellgame.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WDR-42/Head-First-JavaScript-Programming-master/chapter11/bakeSolution.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WDR-42/Head-First-JavaScript-Programming-master/chapter11/challenge.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WDR-42/Head-First-JavaScript-Programming-master/chapter11/chapter9WithClosure/five.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WDR-42/Head-First-JavaScript-Programming-master/chapter11/chapter9WithClosure/fiveblur.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WDR-42/Head-First-JavaScript-Programming-master/chapter11/chapter9WithClosure/four.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WDR-42/Head-First-JavaScript-Programming-master/chapter11/chapter9WithClosure/fourblur.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WDR-42/Head-First-JavaScript-Programming-master/chapter11/chapter9WithClosure/imageClosure.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WDR-42/Head-First-JavaScript-Programming-master/chapter11/chapter9WithClosure/one.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WDR-42/Head-First-JavaScript-Programming-master/chapter11/chapter9WithClosure/oneblur.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WDR-42/Head-First-JavaScript-Programming-master/chapter11/chapter9WithClosure/three.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WDR-42/Head-First-JavaScript-Programming-master/chapter11/chapter9WithClosure/threeblur.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WDR-42/Head-First-JavaScript-Programming-master/chapter11/chapter9WithClosure/two.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WDR-42/Head-First-JavaScript-Programming-master/chapter11/chapter9WithClosure/twoblur.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WDR-42/Head-First-JavaScript-Programming-master/chapter11/chapter9WithClosure/zero.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WDR-42/Head-First-JavaScript-Programming-master/chapter11/chapter9WithClosure/zeroblur.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WDR-42/Head-First-JavaScript-Programming-master/chapter11/closureExercise.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WDR-42/Head-First-JavaScript-Programming-master/chapter11/counterClosure.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WDR-42/Head-First-JavaScript-Programming-master/chapter11/divClosure.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WDR-42/Head-First-JavaScript-Programming-master/chapter11/flyAndQuack.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WDR-42/Head-First-JavaScript-Programming-master/chapter11/justAVar.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WDR-42/Head-First-JavaScript-Programming-master/chapter11/justSayin.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WDR-42/Head-First-JavaScript-Programming-master/chapter11/timerClosure.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WDR-42/Head-First-JavaScript-Programming-master/chapter11/vaccine.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WDR-42/Head-First-JavaScript-Programming-master/chapter12/cadi.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WDR-42/Head-First-JavaScript-Programming-master/chapter12/car.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WDR-42/Head-First-JavaScript-Programming-master/chapter12/carAndDog.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WDR-42/Head-First-JavaScript-Programming-master/chapter12/coffee.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WDR-42/Head-First-JavaScript-Programming-master/chapter12/dog1.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WDR-42/Head-First-JavaScript-Programming-master/chapter12/dog2.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WDR-42/Head-First-JavaScript-Programming-master/chapter12/dogCatcher.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WDR-42/Head-First-JavaScript-Programming-master/chapter13/cliche.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WDR-42/Head-First-JavaScript-Programming-master/chapter13/dog.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WDR-42/Head-First-JavaScript-Programming-master/chapter13/dog1.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WDR-42/Head-First-JavaScript-Programming-master/chapter13/dog2.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WDR-42/Head-First-JavaScript-Programming-master/chapter13/dog3.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WDR-42/Head-First-JavaScript-Programming-master/chapter13/dog4.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WDR-42/Head-First-JavaScript-Programming-master/chapter13/dog5.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WDR-42/Head-First-JavaScript-Programming-master/chapter13/palindrome.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WDR-42/Head-First-JavaScript-Programming-master/chapter13/robotOverride.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WDR-42/Head-First-JavaScript-Programming-master/chapter13/robots.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WDR-42/Head-First-JavaScript-Programming-master/chapter13/robotsGame.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WDR-42/Head-First-JavaScript-Programming-master/chapter13/robotsHasOwnProperty.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WDR-42/Head-First-JavaScript-Programming-master/chapter13/showdogs.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WDR-42/Head-First-JavaScript-Programming-master/chapter13/showdogsCleanup.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WDR-42/Head-First-JavaScript-Programming-master/chapter13/showdogsTester.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WDR-42/Head-First-JavaScript-Programming-master/chapter13/spacerobots.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WDR-42/Head-First-JavaScript-Programming-master/chapter2/battleship-final.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WDR-42/Head-First-JavaScript-Programming-master/chapter2/battleship.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WDR-42/Head-First-JavaScript-Programming-master/chapter2/battleship.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WDR-42/Head-First-JavaScript-Programming-master/chapter3/areaAndDistance.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WDR-42/Head-First-JavaScript-Programming-master/chapter3/bake.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WDR-42/Head-First-JavaScript-Programming-master/chapter3/bark.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WDR-42/Head-First-JavaScript-Programming-master/chapter3/sherlock.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WDR-42/Head-First-JavaScript-Programming-master/chapter3/thingamajig.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WDR-42/Head-First-JavaScript-Programming-master/chapter4/bubbles.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WDR-42/Head-First-JavaScript-Programming-master/chapter4/bubbles2.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WDR-42/Head-First-JavaScript-Programming-master/chapter4/icecream.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WDR-42/Head-First-JavaScript-Programming-master/chapter4/phrase-o-matic.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WDR-42/Head-First-JavaScript-Programming-master/chapter5/autoomatic.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WDR-42/Head-First-JavaScript-Programming-master/chapter5/carProps.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WDR-42/Head-First-JavaScript-Programming-master/chapter5/carWithDrive.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WDR-42/Head-First-JavaScript-Programming-master/chapter5/carWithDriveExercise.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WDR-42/Head-First-JavaScript-Programming-master/chapter5/carWithFuel.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WDR-42/Head-First-JavaScript-Programming-master/chapter5/eightball.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WDR-42/Head-First-JavaScript-Programming-master/chapter5/prequal.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WDR-42/Head-First-JavaScript-Programming-master/chapter5/secret.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WDR-42/Head-First-JavaScript-Programming-master/chapter6/code.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WDR-42/Head-First-JavaScript-Programming-master/chapter6/drevel.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WDR-42/Head-First-JavaScript-Programming-master/chapter6/planets.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WDR-42/Head-First-JavaScript-Programming-master/chapter7/duck.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WDR-42/Head-First-JavaScript-Programming-master/chapter7/typeof.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WDR-42/Head-First-JavaScript-Programming-master/chapter7/types.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WDR-42/Head-First-JavaScript-Programming-master/chapter8/battleship.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WDR-42/Head-First-JavaScript-Programming-master/chapter8/battleship.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WDR-42/Head-First-JavaScript-Programming-master/chapter8/battleship1.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WDR-42/Head-First-JavaScript-Programming-master/chapter8/battleship_tester.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WDR-42/Head-First-JavaScript-Programming-master/chapter8/battleship_tester.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WDR-42/Head-First-JavaScript-Programming-master/chapter8/board.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WDR-42/Head-First-JavaScript-Programming-master/chapter8/miss.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WDR-42/Head-First-JavaScript-Programming-master/chapter8/ship.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WDR-42/Head-First-JavaScript-Programming-master/chapter9/event.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WDR-42/Head-First-JavaScript-Programming-master/chapter9/five.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WDR-42/Head-First-JavaScript-Programming-master/chapter9/fiveblur.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WDR-42/Head-First-JavaScript-Programming-master/chapter9/four.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WDR-42/Head-First-JavaScript-Programming-master/chapter9/fourblur.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WDR-42/Head-First-JavaScript-Programming-master/chapter9/image.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WDR-42/Head-First-JavaScript-Programming-master/chapter9/imageMouse.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WDR-42/Head-First-JavaScript-Programming-master/chapter9/imageMultiple.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WDR-42/Head-First-JavaScript-Programming-master/chapter9/imageReblur.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WDR-42/Head-First-JavaScript-Programming-master/chapter9/image_start.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WDR-42/Head-First-JavaScript-Programming-master/chapter9/map.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WDR-42/Head-First-JavaScript-Programming-master/chapter9/map.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WDR-42/Head-First-JavaScript-Programming-master/chapter9/one.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WDR-42/Head-First-JavaScript-Programming-master/chapter9/oneblur.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WDR-42/Head-First-JavaScript-Programming-master/chapter9/resize.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WDR-42/Head-First-JavaScript-Programming-master/chapter9/three.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WDR-42/Head-First-JavaScript-Programming-master/chapter9/threeblur.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WDR-42/Head-First-JavaScript-Programming-master/chapter9/ticktock.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WDR-42/Head-First-JavaScript-Programming-master/chapter9/two.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WDR-42/Head-First-JavaScript-Programming-master/chapter9/twoblur.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WDR-42/Head-First-JavaScript-Programming-master/chapter9/zero.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WDR-42/Head-First-JavaScript-Programming-master/chapter9/zeroblur.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WDR-42/Head-First-JavaScript-Programming-master/extras/letWithClosures.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WDR-42/Head-First-JavaScript-Programming-master/extras/timer.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WDR-42/Head-First-JavaScript-Programming-master/extras/varWithClosures.html" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <ignored path="WDR.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -77,10 +208,24 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WDR" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WDR" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WDR-42" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
       <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -116,6 +261,12 @@
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.npm" factoryName="npm">
@@ -142,6 +293,9 @@
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
   </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="eb978a30-c8e8-4b20-b826-b89cf59c600c" name="Default" comment="" />
@@ -149,12 +303,13 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1478721938781</updated>
-      <workItem from="1478721940444" duration="764000" />
+      <workItem from="1478721940444" duration="1362000" />
+      <workItem from="1478794468326" duration="1806000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="764000" />
+    <option name="totallyTimeSpent" value="3168000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1456" height="876" extended-state="6" />
@@ -162,21 +317,29 @@
     <layout>
       <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24894217" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
