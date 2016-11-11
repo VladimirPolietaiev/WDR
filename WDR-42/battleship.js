@@ -142,19 +142,23 @@ var controller = {
 // helper function to parse a guess from the user
 
 function parseGuess(guess) {
-	var alphabet = ["A", "B", "C", "D", "E", "F", "G"];
+	console.log("guess ", guess)//to chto vvel user
+	var alphabet = ["A", "B", "C", "D", "E", "F", "G","H", "I", "J", "K", "L", "M", "N"];//13
 
-	if (guess === null || guess.length !== 2) {
+	if (guess === null || guess.length <2 || guess.length >3) {
 		alert("Oops, please enter a letter and a number on the board.");
 	} else {
-		var firstChar = guess.charAt(0);
-		var row = alphabet.indexOf(firstChar);
-		var column = guess.charAt(1);
-		
+		var firstChar = guess.charAt(0); //b0 = b = 0; 1 = 1; 1 = 2 ; 11 00 = 1 10
+		var row = alphabet.indexOf(firstChar);//10
+	var column = "";
+	if(row> 10 && guess.length==2){
+		column = "0" + guess.charAt(1)
+	} else {column = guess.charAt(1) + guess.charAt(2);}
+		console.log("RESULT = ", row + column)
 		if (isNaN(row) || isNaN(column)) {
 			alert("Oops, that isn't on the board.");
-		} else if (row < 0 || row >= model.boardSize ||
-		           column < 0 || column >= model.boardSize) {
+		} else if (row < 0 || row > model.boardSize ||
+		           column < 0 || column > model.boardSize) {
 			alert("Oops, that's off the board!");
 		} else {
 			return row + column;
