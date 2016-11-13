@@ -1,5 +1,5 @@
 var model = {
-	boardSize: 7,
+	boardSize: 14,
 	numShips: 3,
 	shipLength: 3,
 	shipsSunk: 0,
@@ -125,7 +125,6 @@ var view = {
 
 var controller = {
 	guesses: 0,
-
 	processGuess: function(guess) {
 		var location = parseGuess(guess);
 		if (location) {
@@ -142,15 +141,19 @@ var controller = {
 // helper function to parse a guess from the user
 
 function parseGuess(guess) {
-	var alphabet = ["A", "B", "C", "D", "E", "F", "G"];
+	console.log("guess ", guess)//to chto vvel user
+	var alphabet = ["A", "B", "C", "D", "E", "F", "G","H", "I", "J", "K", "L", "M", "N"];//13
 
-	if (guess === null || guess.length !== 2) {
+	if (guess === null || guess.length <2 || guess.length >3) {
 		alert("Oops, please enter a letter and a number on the board.");
 	} else {
-		var firstChar = guess.charAt(0);
-		var row = alphabet.indexOf(firstChar);
-		var column = guess.charAt(1);
-		
+		var firstChar = guess.charAt(0); //b0 = b = 0; 1 = 1; 1 = 2 ; 11 00 = 1 10
+		var row = alphabet.indexOf(firstChar);//10
+	var column = "";
+	if(row> 10 && guess.length==2){
+		column = "0" + guess.charAt(1)
+	} else {column = guess.charAt(1) + guess.charAt(2);}
+		console.log("RESULT = ", row + column)
 		if (isNaN(row) || isNaN(column)) {
 			alert("Oops, that isn't on the board.");
 		} else if (row < 0 || row >= model.boardSize ||
@@ -167,11 +170,12 @@ function parseGuess(guess) {
 // event handlers
 
 function handleFireButton() {
-	var guessInput = document.getElementById("guessInput");
-	var guess = guessInput.value.toUpperCase();
-
+	var guessRow = document.getElementById("guessInputRow").value;
+	var guessColum = document.getElementById("guessInputColum").value;
+	var guessInput = guessRow + guessColum ;
+	console.log("res ", guessInput);
+	var guess = guessInput.toUpperCase();
 	controller.processGuess(guess);
-
 	guessInput.value = "";
 }
 
@@ -197,9 +201,10 @@ function init() {
 	// Fire! button onclick handler
 	var fireButton = document.getElementById("fireButton");
 	fireButton.onclick = handleFireButton;
-
 	// handle "return" key press
-	var guessInput = document.getElementById("guessInput");
+	var guessRow = document.getElementById("guessInputRow");
+	var guassColum = document.getElementById("guessInputColum")
+	var guessInput = guessRow + guassColum ;
 	guessInput.onkeypress = handleKeyPress;
 
 	// place the ships on the game board
