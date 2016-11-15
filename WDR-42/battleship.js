@@ -219,7 +219,7 @@ function init() {
 
 	// place the ships on the game board
 	model.generateShipLocations();
-}
+};
 
 
 
