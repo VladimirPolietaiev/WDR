@@ -3,21 +3,11 @@ var model = {
 	numShips: 3,
 	shipLength: 3,
 	shipsSunk: 0,
-	
 	ships: [
 		{ locations: [0, 0, 0], hits: ["", "", ""] },
 		{ locations: [0, 0, 0], hits: ["", "", ""] },
 		{ locations: [0, 0, 0], hits: ["", "", ""] }
 	],
-
-// original hard-coded values for ship locations
-/*
-	ships: [
-		{ locations: ["06", "16", "26"], hits: ["", "", ""] },
-		{ locations: ["24", "34", "44"], hits: ["", "", ""] },
-		{ locations: ["10", "11", "12"], hits: ["", "", ""] }
-	],
-*/
 
 	fire: function(guess) {
 		for (var i = 0; i < this.numShips; i++) {
@@ -28,27 +18,31 @@ var model = {
 			// has already been hit, message the user, and return true.
 			if (ship.hits[index] === "hit") {
 				view.displayMessage("Oops, you already hit that location!");
+				
 				return true;
 			} else if (index >= 0) {
 				ship.hits[index] = "hit";
 				view.displayHit(guess);
 				view.displayMessage("HIT!");
 
-				if (this.isSunk(ship)) {
+				if (this.isSunk(ship) ) {
 					view.displayMessage("You sank my battleship!");
 					this.shipsSunk++;
 				}
+				
 				return true;
 			}
 		}
 		view.displayMiss(guess);
 		view.displayMessage("You missed.");
+		
 		return false;
 	},
 
 	isSunk: function(ship) {
 		for (var i = 0; i < this.shipLength; i++)  {
 			if (ship.hits[i] !== "hit") {
+				
 				return false;
 			}
 		}
@@ -57,11 +51,12 @@ var model = {
 
 	generateShipLocations: function() {
 		var locations;
+		
 		for (var i = 0; i < this.numShips; i++) {
-			do {
+			 do {
 				locations = this.generateShip();
-			} while (this.collision(locations));
-			this.ships[i].locations = locations;
+			 } while (this.collision(locations) );
+			   this.ships[i].locations = locations;
 		}
 		console.log("Ships array: ");
 		console.log(this.ships);
@@ -73,32 +68,36 @@ var model = {
 
 		if (direction === 1) { // horizontal
 			row = Math.floor(Math.random() * this.boardSize);
-			col = Math.floor(Math.random() * (this.boardSize - this.shipLength + 1));
+			col = Math.floor(Math.random() * (this.boardSize - this.shipLength + 1) );
 		} else { // vertical
-			row = Math.floor(Math.random() * (this.boardSize - this.shipLength + 1));
+			row = Math.floor(Math.random() * (this.boardSize - this.shipLength + 1) );
 			col = Math.floor(Math.random() * this.boardSize);
 		}
 
 		var newShipLocations = [];
-		for (var i = 0; i < this.shipLength; i++) {
-			if (direction === 1) {
+		
+		  for (var i = 0; i < this.shipLength; i++) {
+			   if (direction === 1) {
 				newShipLocations.push(row + "" + (col + i));
-			} else {
+			   } else {
 				newShipLocations.push((row + i) + "" + col);
-			}
-		}
+			   }
+		  }
+		
 		return newShipLocations;
 	},
 
 	collision: function(locations) {
 		for (var i = 0; i < this.numShips; i++) {
-			var ship = this.ships[i];
-			for (var j = 0; j < locations.length; j++) {
-				if (ship.locations.indexOf(locations[j]) >= 0) {
+		 	 var ship = this.ships[i];
+			 for (var j = 0; j < locations.length; j++) {
+				  if (ship.locations.indexOf(locations[j]) >= 0) {
+					  
 					return true;
-				}
-			}
+				  }
+			 }
 		}
+		
 		return false;
 	}
 	
@@ -125,41 +124,45 @@ var view = {
 
 var controller = {
 	guesses: 0,
+	
 	processGuess: function(guess) {
 		var location = parseGuess(guess);
 		if (location) {
 			this.guesses++;
 			var hit = model.fire(location);
 			if (hit && model.shipsSunk === model.numShips) {
-					view.displayMessage("You sank all my battleships, in " + this.guesses + " guesses");
+				view.displayMessage("You sank all my battleships, in " + this.guesses + " guesses");
 			}
 		}
 	}
-}
+};
 
 
 // helper function to parse a guess from the user
 
 function parseGuess(guess) {
-	console.log("guess ", guess)//to chto vvel user
-	var alphabet = ["A", "B", "C", "D", "E", "F", "G","H", "I", "J", "K", "L", "M", "N"];//13
+	console.log("guess ", guess);
+	var alphabet = ["A", "B", "C", "D", "E", "F", "G","H", "I", "J", "K", "L", "M", "N"];
 
-	if (guess === null || guess.length <2 || guess.length >3) {
+	if (guess === null || guess.length < 2 || guess.length > 3) {
 		alert("Oops, please enter a letter and a number on the board.");
 	} else {
-		var firstChar = guess.charAt(0); //b0 = b = 0; 1 = 1; 1 = 2 ; 11 00 = 1 10
-		var row = alphabet.indexOf(firstChar);//10
-	var column = "";
-	if(row> 10 && guess.length==2){
-		column = "0" + guess.charAt(1)
-	} else {column = guess.charAt(1) + guess.charAt(2);}
-		console.log("RESULT = ", row + column)
-		if (isNaN(row) || isNaN(column)) {
+		var firstChar = guess.charAt(0);
+		var row = alphabet.indexOf(firstChar);
+	    var column = "";
+
+	if(row > 10 && guess.length == 2) {
+		column = "0" + guess.charAt(1);
+	} else {
+		column = guess.charAt(1) + guess.charAt(2);
+	}
+		if (isNaN(row) || isNaN(column) ) {
 			alert("Oops, that isn't on the board.");
 		} else if (row < 0 || row >= model.boardSize ||
 		           column < 0 || column >= model.boardSize) {
 			alert("Oops, that's off the board!");
 		} else {
+
 			return row + column;
 		}
 	}
@@ -173,12 +176,11 @@ function handleFireButton() {
 	var guessRow = document.getElementById("guessInputRow").value;
 	var guessColum = document.getElementById("guessInputColum").value;
 	var guessInput = guessRow + guessColum ;
-	console.log("res ", guessInput);
 	var guess = guessInput.toUpperCase();
+    
 	controller.processGuess(guess);
 	guessInput.value = "";
 }
-
 function handleKeyPress(e) {
 	var fireButton = document.getElementById("fireButton");
 
@@ -188,6 +190,7 @@ function handleKeyPress(e) {
 
 	if (e.keyCode === 13) {
 		fireButton.click();
+        
 		return false;
 	}
 }
@@ -200,10 +203,11 @@ window.onload = init;
 function init() {
 	// Fire! button onclick handler
 	var fireButton = document.getElementById("fireButton");
+    
 	fireButton.onclick = handleFireButton;
 	// handle "return" key press
 	var guessRow = document.getElementById("guessInputRow");
-	var guassColum = document.getElementById("guessInputColum")
+	var guassColum = document.getElementById("guessInputColum");
 	var guessInput = guessRow + guassColum ;
 	guessInput.onkeypress = handleKeyPress;
 
