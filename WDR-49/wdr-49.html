@@ -11,22 +11,23 @@
     var arr;
     arr = b.split (' ');// создал массив из строки
 
-
     function threeWords(data) {
         var arr = data.split (' ');// создал массив из строки
-        var wordRezalt = 0 ; // счетчик для повтора слов
+        var wordRezult = 0 ; // счетчик для повтора слов
 
-        for (var i = 0; i < arr.length; i++) {
-            if (isNaN(Number(arr[i]) ) ) { // проверка строка ли ето
+        for (var i = 0; i < arr.length; i++){
+            if (isNaN(Number(arr[i]))){   // проверка строка ли ето
                 wordRezalt++ ;
-                if (wordRezalt == 3) {
-                    return   true;
+                if (wordRezult == 3) {
+
+                    return true;
                 }
             } else {
-            wordRezalt = 0 ;
+              wordRezult = 0 ;
             }
         }
-        return  false;
+
+        return false;
     }
 
 
