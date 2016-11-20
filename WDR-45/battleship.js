@@ -11,10 +11,10 @@ var model = {
 
 	fire: function(guess) {
 		for (var i = 0; i < this.numShips; i++) {
-			var ship = this.ships[i];
-			var index = ship.locations.indexOf(guess);
+			 var ship = this.ships[i];
+			 var index = ship.locations.indexOf(guess);
 
-			// here's an improvement! Check to see if the ship
+		    // here's an improvement! Check to see if the ship
 			// has already been hit, message the user, and return true.
 			if (ship.hits[index] === "hit") {
 				view.displayMessage("Oops, you already hit that location!");
@@ -43,7 +43,7 @@ var model = {
 		for (var i = 0; i < this.shipLength; i++)  {
 			if (ship.hits[i] !== "hit") {
 				
-				return false;
+			return false;
 			}
 		}
 	    return true;
@@ -54,7 +54,7 @@ var model = {
 		
 		for (var i = 0; i < this.numShips; i++) {
 			 do {
-				locations = this.generateShip();
+			 locations = this.generateShip();
 			 } while (this.collision(locations) );
 			   this.ships[i].locations = locations;
 		}
@@ -78,7 +78,7 @@ var model = {
 		
 		  for (var i = 0; i < this.shipLength; i++) {
 			   if (direction === 1) {
-				newShipLocations.push(row + "" + (col + i));
+				newShipLocations.push(row + "" + (col + i) );
 			   } else {
 				newShipLocations.push((row + i) + "" + col);
 			   }
@@ -92,8 +92,8 @@ var model = {
 		 	 var ship = this.ships[i];
 			 for (var j = 0; j < locations.length; j++) {
 				  if (ship.locations.indexOf(locations[j]) >= 0) {
-					  
-					return true;
+
+				   return true;
 				  }
 			 }
 		}
@@ -141,31 +141,30 @@ var controller = {
 // helper function to parse a guess from the user
 
 function parseGuess(guess) {
-	console.log("guess ", guess);
 	var alphabet = ["A", "B", "C", "D", "E", "F", "G","H", "I", "J", "K", "L", "M", "N"];
 
 	if (guess === null || guess.length < 2 || guess.length > 3) {
 		alert("Oops, please enter a letter and a number on the board.");
-	} else {
+	    } else {
 		var firstChar = guess.charAt(0);
 		var row = alphabet.indexOf(firstChar);
 	    var column = "";
 
-	if(row > 10 && guess.length == 2) {
-		column = "0" + guess.charAt(1);
-	} else {
-		column = guess.charAt(1) + guess.charAt(2);
-	}
-		if (isNaN(row) || isNaN(column) ) {
-			alert("Oops, that isn't on the board.");
-		} else if (row < 0 || row >= model.boardSize ||
-		           column < 0 || column >= model.boardSize) {
-			alert("Oops, that's off the board!");
-		} else {
+	           if(row > 10 && guess.length == 2) {
+	             	column = "0" + guess.charAt(1);
+	           } else {
+	            	column = guess.charAt(1) + guess.charAt(2);
+	           }
+	            	if (isNaN(row) || isNaN(column) ) {
+	    	        	alert("Oops, that isn't on the board.");
+		            } else if (row < 0 || row >= model.boardSize ||
+		               column < 0 || column >= model.boardSize) {
+	    	        	alert("Oops, that's off the board!");
+	             	} else {
 
-			return row + column;
-		}
-	}
+			        return row + column;
+		            }
+	    }
 	return null;
 }
 
