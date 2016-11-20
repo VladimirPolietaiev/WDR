@@ -7,35 +7,29 @@
 <body>
 
 <script>
-    var b = '1 am 1 student very stuped.';
+    var b = 'He is 123 man';
     var arr;
     arr = b.split (' ');// создал массив из строки
 
-//    console.log (arr[0] + ' ' + arr[1] + ' ' + arr[2] + ' ' + arr[3]);
-//    console.log("arr.typeof[i] ", typeof arr[i]);
-//    console.log("arr.typeof[i] == 'number' ", typeof arr[i] == 'number');
-//    console.log (arr[0] + ' ' + arr[1] + ' ' + arr[2] + ' ' + arr[3]);
-//    console.log("arr.typeof[i] ", typeof arr[i]);
-//    console.log("arr.typeof[i] == 'number' ", typeof arr[i] == 'number');
 
-//    console.log("---------------");
+    function threeWords(data) {
+        var arr = data.split (' ');// создал массив из строки
+        var wordRezalt = 0 ; // счетчик для повтора слов
 
-//    console.log ("Item ", arr[i] );
-
-    for (var i = 0; i < arr.length; i++) {
-        if (Number.isNaN(arr[i] ) != isNaN(arr[i]) ) { //
-            var wordRezalt = arr.length;
-                           console.log ("Item ", arr[i] );
-            wordRezalt = wordRezalt + 1;
-            if (wordRezalt = 3) {
-
-                           alert("слов вподряд" + wordRezalt);
-                } else {
-                var nunmberRezalt = arr.length;
-                            console.log("number" + nunmberRezalt);
+        for (var i = 0; i < arr.length; i++) {
+            if (isNaN(Number(arr[i]) ) ) { // проверка строка ли ето
+                wordRezalt++ ;
+                if (wordRezalt == 3) {
+                    return   true;
                 }
+            } else {
+            wordRezalt = 0 ;
+            }
         }
+        return  false;
     }
+
+
 
 
 </script>
