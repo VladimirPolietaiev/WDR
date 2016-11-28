@@ -18,8 +18,7 @@ var model = {
 			// has already been hit, message the user, and return true.
 			if (ship.hits[index] === "hit") {
 				view.displayMessage("Oops, you already hit that location!");
-				
-				return true;
+			  return true;
 			} else if (index >= 0) {
 				ship.hits[index] = "hit";
 				view.displayHit(guess);
@@ -29,8 +28,7 @@ var model = {
 					view.displayMessage("You sank my battleship!");
 					this.shipsSunk++;
 				}
-				
-				return true;
+			 return true;
 			}
 		}
 		view.displayMiss(guess);
@@ -42,7 +40,6 @@ var model = {
 	isSunk: function(ship) {
 		for (var i = 0; i < this.shipLength; i++)  {
 			if (ship.hits[i] !== "hit") {
-				
 			return false;
 			}
 		}
@@ -76,33 +73,29 @@ var model = {
 
 		var newShipLocations = [];
 		
-		  for (var i = 0; i < this.shipLength; i++) {
+		   for (var i = 0; i < this.shipLength; i++) {
 			   if (direction === 1) {
-				newShipLocations.push(row + "" + (col + i) );
+				newShipLocations.push(row + "" + (col + i));
 			   } else {
 				newShipLocations.push((row + i) + "" + col);
 			   }
-		  }
+		   }
 		
 		return newShipLocations;
 	},
 
 	collision: function(locations) {
-		for (var i = 0; i < this.numShips; i++) {
+		for (var i = 0; i < this.numShips; i++){
 		 	 var ship = this.ships[i];
-			 for (var j = 0; j < locations.length; j++) {
-				  if (ship.locations.indexOf(locations[j]) >= 0) {
-
-				   return true;
+			 for (var j = 0; j < locations.length; j++){
+				  if (ship.locations.indexOf(locations[j]) >= 0){
+				  return true;
 				  }
 			 }
 		}
-		
 		return false;
 	}
-	
-}; 
-
+};
 
 var view = {
 	displayMessage: function(msg) {
@@ -119,8 +112,7 @@ var view = {
 		var cell = document.getElementById(location);
 		cell.setAttribute("class", "miss");
 	}
-
-}; 
+};
 
 var controller = {
 	guesses: 0,
@@ -136,8 +128,6 @@ var controller = {
 		}
 	}
 };
-
-
 // helper function to parse a guess from the user
 
 function parseGuess(guess) {
@@ -156,19 +146,18 @@ function parseGuess(guess) {
 	            	column = guess.charAt(1) + guess.charAt(2);
 	           }
 	            	if (isNaN(row) || isNaN(column) ) {
-	    	        	alert("Oops, that isn't on the board.");
+
+	    	          alert("Oops, that isn't on the board.");
 		            } else if (row < 0 || row >= model.boardSize ||
 		               column < 0 || column >= model.boardSize) {
-	    	        	alert("Oops, that's off the board!");
-	             	} else {
 
-			        return row + column;
+					  alert("Oops, that's off the board!");
+	             	} else {
+			          return row + column;
 		            }
 	    }
 	return null;
 }
-
-
 // event handlers
 
 function handleFireButton() {
@@ -189,12 +178,9 @@ function handleKeyPress(e) {
 
 	if (e.keyCode === 13) {
 		fireButton.click();
-        
-		return false;
+	 return false;
 	}
 }
-
-
 // init - called when the page has completed loading
 
 window.onload = init;
