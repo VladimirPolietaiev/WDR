@@ -13,10 +13,10 @@
 
     function threeWords(data) {
         var arr = data.split (' ');// создал массив из строки
-        var wordRezult = 0 ; // счетчик для повтора слов
+        var wordsCounter = 0 ;
 
         for (var i = 0; i < arr.length; i++){
-            if (isNaN(Number(arr[i]))){   // проверка строка ли ето
+            if (isItString()){
                 wordRezult++ ;
                 if (wordRezult == 3) {
 
@@ -26,10 +26,7 @@
               wordRezult = 0 ;
             }
         }
-
-        return false;
     }
-
 </script>
 </body>
 </html>
